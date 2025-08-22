@@ -59,7 +59,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Form in React</h1>
+      <h1>Form in React Vite</h1>
       <fieldset>
         <form action="#" method="get">
           <label for="firstname">
