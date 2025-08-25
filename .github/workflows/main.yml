@@ -20,14 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./my-react-form
 
       - name: Build project
         run: npm run build
-        working-directory: ./my-react-form
 
       - name: Deploy to Vercel
         run: |
           npm install -g vercel
           vercel --prod --yes --confirm
-        working-directory: ./my-react-form
